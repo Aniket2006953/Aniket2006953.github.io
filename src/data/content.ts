@@ -23,9 +23,8 @@ export const portfolioContent: PortfolioData = {
     location: "Nagpur, Maharashtra, India",
     email: "aniketbhukte4@gmail.com",
     phone: "+91 9373175227",
-    // Configured with placeholders ready for user's specific username/URL
-    linkedIn: "https://www.linkedin.com/in/aniket-bhukte",
-    github: "https://github.com/aniketbhukte",
+    linkedIn: "https://www.linkedin.com/in/aniketbhukte/",
+    github: "https://github.com/Aniket2006953",
     resumeUrl: "./resume.pdf",
     avatarUrl: "./profile.svg",
     status: {
@@ -109,8 +108,8 @@ export const portfolioContent: PortfolioData = {
       description: "Engineered an intelligent agricultural assistant that processes crop symptom images to deliver real-time disease identification and localized treatments. Integrated live market price REST APIs and multilingual support, empowering over 500 local farmers with a 15% increase in crop yield planning accuracy.",
       category: "AI & Data",
       technologies: ["Python", "Artificial Intelligence", "Deep Learning", "REST APIs", "React", "Django"],
-      liveUrl: "https://agrismart-ai.demo",
-      githubUrl: "https://github.com/aniketbhukte/agrismart-ai",
+      liveUrl: "https://github.com/Aniket2006953",
+      githubUrl: "https://github.com/Aniket2006953",
       featured: true,
       imageAlt: "AgriSmart AI crop diagnosis and market prices interface"
     },
@@ -121,8 +120,8 @@ export const portfolioContent: PortfolioData = {
       description: "Architected a full-stack peer-to-peer learning network facilitating real-time knowledge sharing. Implemented an optimized MongoDB and Django architecture that decreased API response times by 20%, deploying across Vercel and Render with continuous CI/CD pipelines and 99.9% availability.",
       category: "Full Stack",
       technologies: ["React", "Django", "MongoDB", "JavaScript", "Vercel", "Render", "CI/CD"],
-      liveUrl: "https://skillswap.demo",
-      githubUrl: "https://github.com/aniketbhukte/skill-swap",
+      liveUrl: "https://github.com/Aniket2006953",
+      githubUrl: "https://github.com/Aniket2006953",
       featured: true,
       imageAlt: "Skill Swap peer-to-peer collaborative learning platform dashboard"
     }
