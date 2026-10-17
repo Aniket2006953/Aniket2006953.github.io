@@ -3,9 +3,10 @@ import { ArrowUp, Mail } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './Icons';
 import { portfolioContent } from '../data/content';
 
+const CURRENT_YEAR = new Date().getFullYear();
+
 export const Footer: React.FC = () => {
   const { personal } = portfolioContent;
-  const currentYear = new Date().getFullYear();
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -29,7 +30,7 @@ export const Footer: React.FC = () => {
               <span>{personal.fullName}</span>
             </div>
             <p className="mt-1 text-xs text-neutral-500 dark:text-neutral-400">
-              © {currentYear} {personal.fullName}. Designed with Google Big-Tech aesthetic principles.
+              © {CURRENT_YEAR} {personal.fullName}. Designed with Google Big-Tech aesthetic principles.
             </p>
           </div>
 
