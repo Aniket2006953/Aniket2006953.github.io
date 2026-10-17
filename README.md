@@ -2,15 +2,15 @@
 
 > Production-ready personal engineering portfolio designed with Google / Big-Tech MNC design principles. Built with Vite, React 19, TypeScript, Tailwind CSS, Framer Motion, and Lucide icons. Fully static and optimized for 95+ Lighthouse scores across Performance, Accessibility, Best Practices, and SEO.
 
-[![Deploy to GitHub Pages](https://github.com/alexchen-dev/portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alexchen-dev/portfolio/actions/workflows/deploy.yml)
-[![Live Demo](https://img.shields.io/badge/Demo-Live%20Site-1a73e8?style=flat&logo=googlechrome&logoColor=white)](https://alexchen-dev.github.io)
+[![Deploy to GitHub Pages](https://github.com/Aniket2006953/Aniket2006953.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/Aniket2006953/Aniket2006953.github.io/actions/workflows/deploy.yml)
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20Site-1a73e8?style=flat&logo=googlechrome&logoColor=white)](https://aniket2006953.github.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
-## 🌐 Live Demo & Preview
+## 🌐 Live Website
 
-- **Live URL**: [https://alexchen-dev.github.io](https://alexchen-dev.github.io) *(Replace with your GitHub Pages URL)*
+👉 **[https://aniket2006953.github.io](https://aniket2006953.github.io)**
 - **Interactive Light & Dark Mode**: Persistent theme state with automatic OS preference detection.
 
 ```
