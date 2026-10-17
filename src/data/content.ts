@@ -26,7 +26,7 @@ export const portfolioContent: PortfolioData = {
     linkedIn: "https://www.linkedin.com/in/aniketbhukte/",
     github: "https://github.com/Aniket2006953",
     resumeUrl: "./resume.pdf",
-    avatarUrl: "./profile.svg",
+    avatarUrl: "./profile.png",
     status: {
       available: true,
       text: "Seeking Java Developer & Software Engineer Roles"

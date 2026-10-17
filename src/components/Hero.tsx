@@ -137,7 +137,7 @@ export const Hero: React.FC = () => {
                 alt={`${personal.fullName} - Professional Profile`}
                 width="240"
                 height="240"
-                className="w-52 h-52 sm:w-60 sm:h-60 rounded-2xl object-cover bg-neutral-900"
+                className="w-52 h-52 sm:w-60 sm:h-60 rounded-2xl object-cover object-top bg-neutral-100 dark:bg-neutral-800"
                 loading="eager"
               />
 
