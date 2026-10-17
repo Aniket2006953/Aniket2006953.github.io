@@ -117,7 +117,7 @@ export const Hero: React.FC = () => {
 
               <a
                 href={personal.resumeUrl}
-                download="Alex_Chen_Resume.pdf"
+                download="Aniket_Bhukte_Resume.pdf"
                 aria-label="Download Resume"
                 className="p-2.5 rounded-xl border border-neutral-200 dark:border-neutral-800 text-neutral-600 dark:text-neutral-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50/50 dark:hover:bg-neutral-800 transition-colors"
               >

@@ -134,7 +134,7 @@ export const Navbar: React.FC = () => {
           
           <a
             href={portfolioContent.personal.resumeUrl}
-            download="Alex_Chen_Resume.pdf"
+            download="Aniket_Bhukte_Resume.pdf"
             className="inline-flex items-center gap-1.5 px-3.5 py-1.5 text-sm font-medium rounded-lg bg-neutral-900 text-white hover:bg-neutral-800 dark:bg-neutral-100 dark:text-neutral-900 dark:hover:bg-white shadow-xs transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600"
             aria-label="Download Resume PDF"
           >
@@ -188,7 +188,7 @@ export const Navbar: React.FC = () => {
           <div className="pt-6 border-t border-neutral-200 dark:border-neutral-800 flex flex-col gap-3">
             <a
               href={portfolioContent.personal.resumeUrl}
-              download="Alex_Chen_Resume.pdf"
+              download="Aniket_Bhukte_Resume.pdf"
               className="w-full flex items-center justify-center gap-2 py-3 px-4 text-base font-medium rounded-xl bg-blue-600 text-white hover:bg-blue-700 shadow-xs transition-colors"
             >
               <Download className="w-5 h-5" />

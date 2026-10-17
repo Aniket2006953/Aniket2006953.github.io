@@ -2,293 +2,221 @@ import type { PortfolioData } from '../types/portfolio';
 
 /**
  * =============================================================================
- * PORTFOLIO CONTENT CONFIGURATION
+ * PORTFOLIO CONTENT CONFIGURATION - ANIKET BHUKTE
  * =============================================================================
- * This is the SINGLE SOURCE OF TRUTH for all your portfolio website content.
- * You can edit any text, links, experiences, projects, and skills right here
- * without modifying any React components.
- * 
- * Instructions:
- * - Replace any [TODO] placeholders below with your personal information.
- * - Place your resume at: /public/resume.pdf
- * - Place your profile photo at: /public/profile.jpg (or use the default avatar)
+ * Single source of truth containing verified personal and technical information.
  * =============================================================================
  */
 
 export const portfolioContent: PortfolioData = {
   personal: {
-    // TODO: Enter your full name
-    fullName: "Alex Chen",
-    preferredName: "Alex",
-    
-    // TODO: Enter your professional title
-    title: "Senior Software Engineer",
-    
-    // TODO: Enter your concise tagline (1 sentence)
-    tagline: "I build scalable distributed systems and resilient web products that millions of people rely on daily.",
-    
-    // TODO: Enter a short bio (2-3 sentences)
-    shortBio: "Senior Software Engineer specializing in high-throughput cloud infrastructure and modern web architectures. Passionate about engineering velocity, human-centered developer tools, and sub-100ms user experiences. Previously built and scaled mission-critical services across high-growth tech platforms.",
-    
+    fullName: "Aniket Bhukte",
+    preferredName: "Aniket",
+    title: "Java Developer & Full-Stack AI Engineer",
+    tagline: "Building reliable, scalable software and intelligent web applications that solve real-world problems.",
+    shortBio: "Motivated Computer Science Engineering student and software developer with proven experience building AI-driven web platforms and full-stack distributed applications. Passionate about Java, Python, and modern web architectures with a strong foundation in Data Structures, Algorithms, and System Design.",
     fullBio: [
-      "Over the past 6+ years, I have architected and delivered enterprise-scale distributed platforms, cloud-native backend microservices, and reactive web applications that serve global user bases.",
-      "My core engineering philosophy centers on simplicity, high availability (99.99%), zero-downtime deployments, and obsessive attention to accessibility and frontend performance metrics.",
-      "When I am not writing production code, I mentor aspiring software engineers, contribute to open-source developer tooling, and write technical deep-dives on systems design."
+      "Currently pursuing my B.Tech in Computer Science Engineering at Prof. Ram Meghe Institute of Technology and Research (CGPA: 8.51/10.0).",
+      "I specialize in Java, Python, React, and Django, having engineered production-grade solutions like AgriSmart AI (empowering 500+ local farmers) and Skill Swap (a high-performance collaborative learning platform).",
+      "Active participant in competitive hackathons including the Google Developers Group Hack2Skill Hackathon 2026 and Esperenza Project Competitions."
     ],
-    
-    // TODO: Enter your current location
-    location: "San Francisco, CA (Open to Remote)",
-    
-    // TODO: Enter your contact email
-    email: "alex.chen.dev@example.com",
-    
-    // TODO: Enter your public profile URLs
-    linkedIn: "https://www.linkedin.com/in/alexchen-dev",
-    github: "https://github.com/alexchen-dev",
-    
-    // Path relative to public directory
+    location: "Nagpur, Maharashtra, India",
+    email: "aniketbhukte4@gmail.com",
+    phone: "+91 9373175227",
+    // Configured with placeholders ready for user's specific username/URL
+    linkedIn: "https://www.linkedin.com/in/aniket-bhukte",
+    github: "https://github.com/aniketbhukte",
     resumeUrl: "./resume.pdf",
     avatarUrl: "./profile.svg",
-    
     status: {
       available: true,
-      text: "Available for Senior / Staff Engineer roles"
+      text: "Seeking Java Developer & Software Engineer Roles"
     }
   },
 
-  // TODO: Update key highlight metrics (use real numbers)
+  // Key stats directly from verified resume metrics
   stats: [
     {
-      value: "6+",
-      label: "Years of Experience",
-      detail: "Building cloud & web products"
+      value: "8.51",
+      label: "B.Tech CGPA",
+      detail: "Computer Science Engineering"
     },
     {
-      value: "14+",
-      label: "Production Systems",
-      detail: "Shipped from 0 to 1"
+      value: "500+",
+      label: "Farmers Impacted",
+      detail: "Via AgriSmart AI Platform"
     },
     {
-      value: "99.99%",
-      label: "System Uptime",
-      detail: "Maintained at enterprise scale"
+      value: "99.9%",
+      label: "Deployment Uptime",
+      detail: "Achieved on Vercel & Render"
     },
     {
-      value: "10M+",
-      label: "Active Users Served",
-      detail: "Across distributed systems"
+      value: "20%",
+      label: "API Latency Reduction",
+      detail: "Optimized Django & MongoDB"
     }
   ],
 
-  // TODO: Add your work experience in reverse chronological order
+  // Experience / Activities
   experiences: [
     {
       id: "exp-1",
-      role: "Staff / Senior Software Engineer",
-      company: "Apex Cloud Technologies",
-      companyUrl: "https://example.com",
-      location: "San Francisco, CA",
-      period: "2023 - Present",
-      startDate: "2023-01",
-      endDate: "Present",
-      description: "Technical lead for the core platform team responsible for distributed control plane and API gateway serving 4.5B monthly requests.",
+      role: "Hack2Skill Hackathon Participant",
+      company: "Google Developers Group",
+      companyUrl: "https://developers.google.com",
+      location: "Nagpur, India",
+      period: "2026",
+      startDate: "2026-01",
+      endDate: "2026-03",
+      description: "Collaborated in an intensive hackathon environment organized by Google Developers Group to solve complex real-world engineering problems.",
       highlights: [
-        "Architected an event-driven ingestion pipeline handling 120k requests/sec, reducing p99 latency from 340ms to 42ms.",
-        "Spearheaded the migration of monolithic microservices to Kubernetes & Go services, decreasing annual cloud infrastructure spend by 32% ($420k/yr).",
-        "Mentored a team of 9 engineers across two time zones, establishing CI/CD quality gates that dropped deployment rollback rates from 6.8% to under 0.4%."
+        "Rapidly prototyped and demonstrated scalable software architectures under strict hackathon deadlines.",
+        "Applied core computer science algorithms and full-stack best practices to deliver functional proofs of concept.",
+        "Engaged with industry mentors and developers from Google Developers Group."
       ],
-      technologies: ["TypeScript", "Go", "React", "Kubernetes", "AWS", "Kafka", "PostgreSQL", "Docker"]
+      technologies: ["Java", "Python", "React", "REST APIs", "Git"]
     },
     {
       id: "exp-2",
-      role: "Full Stack Engineer",
-      company: "Nexus Systems Inc.",
-      companyUrl: "https://example.com",
-      location: "Seattle, WA",
-      period: "2020 - 2023",
-      startDate: "2020-03",
-      endDate: "2023-01",
-      description: "Designed and engineered customer-facing real-time analytics dashboards and asynchronous telemetry workflows.",
+      role: "Project Competitor & Innovator",
+      company: "Esperenza Project Competition",
+      location: "Maharashtra, India",
+      period: "2025 & 2026",
+      startDate: "2025-01",
+      endDate: "2026-02",
+      description: "Designed, presented, and defended software engineering projects before technical evaluation panels across multiple competition editions.",
       highlights: [
-        "Engineered a real-time collaborative workspace utilizing WebSockets and CRDT algorithms, adopted by 85,000+ enterprise teams.",
-        "Overhauled the client bundle bundling strategy with Vite and code splitting, cutting initial bundle size by 58% and raising Google Lighthouse Performance score from 64 to 98.",
-        "Implemented end-to-end telemetry and observability with OpenTelemetry and Datadog, decreasing Mean Time to Resolution (MTTR) by 45%."
+        "Presented AgriSmart AI, demonstrating image symptom diagnostics and live market price integration.",
+        "Received commendations for practical application of machine learning for agricultural yield optimization.",
+        "Enhanced accessibility with multilingual localization for rural users."
       ],
-      technologies: ["React", "TypeScript", "Node.js", "GraphQL", "Tailwind CSS", "Redis", "Docker", "Jest"]
-    },
-    {
-      id: "exp-3",
-      role: "Software Engineer",
-      company: "Vanguard Labs",
-      companyUrl: "https://example.com",
-      location: "San Jose, CA",
-      period: "2018 - 2020",
-      startDate: "2018-06",
-      endDate: "2020-03",
-      description: "Contributed to front-end design systems and RESTful backend microservices for B2B financial compliance software.",
-      highlights: [
-        "Built a reusable, WCAG 2.1 AA accessible React component library utilized across 6 core enterprise internal products.",
-        "Developed automated data reconciliation pipelines processing over $12M in daily transaction volume with 0% balance discrepancies.",
-        "Automated cross-browser UI regression suites via Playwright, cutting QA turnaround cycles by 70%."
-      ],
-      technologies: ["JavaScript", "TypeScript", "React", "Python", "Flask", "PostgreSQL", "Tailwind CSS"]
+      technologies: ["Python", "AI / Deep Learning", "Django", "MySQL", "REST APIs"]
     }
   ],
 
-  // Filter categories for the projects section
   projectCategories: [
     "All",
-    "Full Stack",
-    "Cloud & Systems",
     "AI & Data",
-    "Frontend"
+    "Full Stack"
   ],
 
-  // TODO: Add your top projects (include real GitHub & Live links)
   projects: [
     {
       id: "proj-1",
-      title: "PulseFlow Realtime Telemetry",
-      tagline: "High-throughput telemetry ingestion & interactive performance dashboard.",
-      description: "A distributed monitoring and real-time trace visualizer capable of processing over 50,000 streaming events per second with sub-50ms query latency, built with WebSockets, TimescaleDB, and React.",
-      category: "Full Stack",
-      technologies: ["TypeScript", "React", "Go", "PostgreSQL", "Tailwind CSS", "Docker", "WebSockets"],
-      liveUrl: "https://pulseflow-demo.example.com",
-      githubUrl: "https://github.com/alexchen-dev/pulseflow",
+      title: "AgriSmart AI",
+      tagline: "AI crop disease diagnosis & live agricultural market price platform.",
+      description: "Engineered an intelligent agricultural assistant that processes crop symptom images to deliver real-time disease identification and localized treatments. Integrated live market price REST APIs and multilingual support, empowering over 500 local farmers with a 15% increase in crop yield planning accuracy.",
+      category: "AI & Data",
+      technologies: ["Python", "Artificial Intelligence", "Deep Learning", "REST APIs", "React", "Django"],
+      liveUrl: "https://agrismart-ai.demo",
+      githubUrl: "https://github.com/aniketbhukte/agrismart-ai",
       featured: true,
-      imageAlt: "PulseFlow telemetry dashboard preview showing real-time graphs and latency metrics"
+      imageAlt: "AgriSmart AI crop diagnosis and market prices interface"
     },
     {
       id: "proj-2",
-      title: "KubeShield Policy Engine",
-      tagline: "Automated security compliance and anomaly detection for multi-cluster Kubernetes.",
-      description: "Open-source admission controller and audit CLI that scans manifests against CIS Benchmarks, mitigating security misconfigurations across production clusters with zero runtime overhead.",
-      category: "Cloud & Systems",
-      technologies: ["Go", "Kubernetes", "Docker", "eBPF", "GitHub Actions", "Prometheus"],
-      liveUrl: "https://kubeshield-docs.example.com",
-      githubUrl: "https://github.com/alexchen-dev/kubeshield",
-      featured: true,
-      imageAlt: "KubeShield terminal CLI and audit reporting interface"
-    },
-    {
-      id: "proj-3",
-      title: "Synthetix AI Copilot",
-      tagline: "Contextual RAG-powered coding assistant for large monorepos.",
-      description: "Retrieval-Augmented Generation agent with AST indexing that parses monorepo dependencies, enabling instant code explanations, schema lookups, and test generation with local vector embeddings.",
-      category: "AI & Data",
-      technologies: ["Python", "TypeScript", "LangChain", "FastAPI", "React", "Qdrant", "Tailwind CSS"],
-      liveUrl: "https://synthetix-ai.example.com",
-      githubUrl: "https://github.com/alexchen-dev/synthetix-copilot",
-      featured: true,
-      imageAlt: "Synthetix AI copilot interface showing context-aware code generation"
-    },
-    {
-      id: "proj-4",
-      title: "Aura UI Design System",
-      tagline: "Ultra-accessible, keyboard-first component system built for enterprise web apps.",
-      description: "Accessible design system with 40+ primitives, strictly tested against WCAG 2.2 AAA guidelines with automated axe-core accessibility tests and zero runtime CSS overhead.",
-      category: "Frontend",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Storybook", "Framer Motion", "Vite"],
-      liveUrl: "https://aura-ui.example.com",
-      githubUrl: "https://github.com/alexchen-dev/aura-ui",
-      featured: false,
-      imageAlt: "Aura UI component documentation and interactive playground"
-    },
-    {
-      id: "proj-5",
-      title: "CacheMesh Distributed KV",
-      tagline: "Lightweight in-memory cache with Raft consensus and peer discovery.",
-      description: "Zero-dependency key-value cache engine with masterless node discovery and configurable eviction policies, delivering 90,000 read ops/sec with deterministic memory guarantees.",
-      category: "Cloud & Systems",
-      technologies: ["Go", "gRPC", "Raft", "Distributed Systems", "Benchmark Testing"],
-      liveUrl: "https://cachemesh.example.com",
-      githubUrl: "https://github.com/alexchen-dev/cachemesh",
-      featured: false,
-      imageAlt: "CacheMesh performance benchmark graph and cluster node diagram"
-    },
-    {
-      id: "proj-6",
-      title: "DataLens Visual Query Builder",
-      tagline: "Drag-and-drop SQL query generator with instant schema inference.",
-      description: "Interactive visual data explorer that transforms visual relational entity diagrams into optimized PostgreSQL and Snowflake queries with real-time cost estimation.",
+      title: "Skill Swap",
+      tagline: "Peer-to-peer real-time collaborative knowledge exchange platform.",
+      description: "Architected a full-stack peer-to-peer learning network facilitating real-time knowledge sharing. Implemented an optimized MongoDB and Django architecture that decreased API response times by 20%, deploying across Vercel and Render with continuous CI/CD pipelines and 99.9% availability.",
       category: "Full Stack",
-      technologies: ["React", "TypeScript", "Node.js", "Tailwind CSS", "Prisma", "PostgreSQL"],
-      liveUrl: "https://datalens.example.com",
-      githubUrl: "https://github.com/alexchen-dev/datalens",
-      featured: false,
-      imageAlt: "DataLens visual schema diagram and SQL code preview"
+      technologies: ["React", "Django", "MongoDB", "JavaScript", "Vercel", "Render", "CI/CD"],
+      liveUrl: "https://skillswap.demo",
+      githubUrl: "https://github.com/aniketbhukte/skill-swap",
+      featured: true,
+      imageAlt: "Skill Swap peer-to-peer collaborative learning platform dashboard"
     }
   ],
 
-  // TODO: Add your grouped technical skills
   skills: [
     {
-      title: "Languages",
+      title: "Programming Languages",
       icon: "Code2",
-      skills: ["TypeScript", "JavaScript (ESNext)", "Go", "Python", "SQL", "HTML5 & Modern CSS"]
+      skills: ["Java", "Python", "JavaScript (ES6+)", "SQL"]
     },
     {
-      title: "Frameworks & Libraries",
+      title: "Web Technologies & Frameworks",
       icon: "Layers",
-      skills: ["React 19", "Next.js", "Node.js", "Express", "Tailwind CSS", "Framer Motion", "GraphQL", "FastAPI"]
+      skills: ["React", "Django", "HTML5", "CSS3", "RESTful APIs"]
     },
     {
-      title: "Cloud & Infrastructure",
-      icon: "Cloud",
-      skills: ["Amazon Web Services (AWS)", "Google Cloud Platform (GCP)", "Docker", "Kubernetes", "Terraform", "CI/CD & GitHub Actions"]
-    },
-    {
-      title: "Databases & Architecture",
+      title: "Databases & Storage",
       icon: "Database",
-      skills: ["PostgreSQL", "Redis", "TimescaleDB", "MongoDB", "Kafka", "Microservices", "REST & gRPC APIs", "System Design"]
+      skills: ["MySQL", "MongoDB", "Database Management Systems (DBMS)"]
     },
     {
-      title: "Quality & Developer Tooling",
+      title: "Development Tools & IDEs",
       icon: "ShieldCheck",
-      skills: ["Vite", "Jest / Vitest", "Playwright", "Git & GitHub CLI", "OpenTelemetry", "Datadog", "Web Accessibility (WCAG AA)", "Lighthouse 95+"]
+      skills: ["IntelliJ IDEA", "VS Code", "Eclipse", "Git", "GitHub", "Vercel", "Render"]
     },
     {
-      title: "Professional & Leadership",
+      title: "Core CS Concepts",
+      icon: "Cloud",
+      skills: ["Data Structures", "Algorithms Analysis", "Artificial Intelligence", "Operating Systems", "Object-Oriented Programming (OOP)"]
+    },
+    {
+      title: "Spoken Languages",
       icon: "Users",
-      skills: ["Technical Mentorship", "Cross-Functional Architecture", "Agile / Scrum Delivery", "Sprint Planning", "Technical Documentation", "Engineering Culture"]
+      skills: ["English (Professional)", "Hindi (Fluent)", "Marathi (Native)"]
     }
   ],
 
-  // TODO: Add your formal education
   education: [
     {
       id: "edu-1",
-      degree: "B.S. in Computer Science",
-      institution: "University of California, Berkeley",
-      location: "Berkeley, CA",
-      period: "2014 - 2018",
-      details: "Focus on Distributed Systems, Computer Architecture, and Algorithms.",
-      honors: "Dean's Honors List | Magna Cum Laude"
+      degree: "B.Tech in Computer Science Engineering",
+      institution: "Prof. Ram Meghe Institute of Technology and Research (Autonomous)",
+      location: "Amravati, Maharashtra",
+      period: "2023 – 2027",
+      details: "Comprehensive coursework in Data Structures, Algorithms, DBMS, Operating Systems, and Artificial Intelligence.",
+      honors: "CGPA: 8.51 / 10.0"
+    },
+    {
+      id: "edu-2",
+      degree: "Higher Secondary Certificate (12th Grade)",
+      institution: "Banarsidas Ruiya Junior College",
+      location: "Katol, Maharashtra",
+      period: "2023",
+      honors: "Score: 74.50%"
+    },
+    {
+      id: "edu-3",
+      degree: "Secondary School Certificate (10th Grade)",
+      institution: "Nagar Parishad High School",
+      location: "Narkhed, Maharashtra",
+      period: "2021",
+      honors: "Score: 87.00%"
     }
   ],
 
-  // TODO: Add your certifications and honors
   certificationsAndAwards: [
     {
       id: "cert-1",
-      title: "AWS Certified Solutions Architect – Professional",
-      issuer: "Amazon Web Services",
-      year: "2024",
-      description: "Advanced validation of multi-tier resilient cloud architecture and enterprise migration strategies."
+      title: "Fundamentals of Deep Learning",
+      issuer: "NVIDIA Deep Learning Institute",
+      year: "2025",
+      description: "Hands-on training in neural network architecture, computer vision, and training deep learning models."
     },
     {
       id: "cert-2",
-      title: "Certified Kubernetes Administrator (CKA)",
-      issuer: "Cloud Native Computing Foundation (CNCF)",
-      year: "2023",
-      description: "Demonstrated competence in Kubernetes cluster architecture, networking, security, and troubleshooting."
+      title: "Python for Data Science",
+      issuer: "NPTEL",
+      year: "2025",
+      description: "Advanced certification covering data structures, numerical computing, algorithms, and analytical libraries in Python."
     },
     {
       id: "cert-3",
-      title: "Excellence in Engineering Award",
-      issuer: "Apex Cloud Technologies",
-      year: "2023",
-      description: "Awarded for designing the high-throughput platform migration saving $420k in annual infrastructure costs."
+      title: "AIML Virtual Internship",
+      issuer: "AICTE",
+      year: "2025",
+      description: "Practical industry-oriented internship covering practical AI/ML model deployment and data engineering workflows."
+    },
+    {
+      id: "cert-4",
+      title: "Java Programming",
+      issuer: "IIT Bombay Spoken Tutorial",
+      year: "2024",
+      description: "Rigorous certification covering core Java, Object-Oriented Design, multithreading, and collections framework."
     }
   ]
 };

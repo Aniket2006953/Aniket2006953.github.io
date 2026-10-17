@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Send, Copy, Check, MapPin, MessageSquare } from 'lucide-react';
+import { Mail, Phone, Send, Copy, Check, MapPin, MessageSquare } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './Icons';
 import { portfolioContent } from '../data/content';
 
@@ -107,6 +107,28 @@ export const Contact: React.FC = () => {
               </a>
             </div>
 
+            {/* Phone Card */}
+            {personal.phone && (
+              <div className="p-6 rounded-2xl bg-white dark:bg-[#161922] border border-neutral-200/80 dark:border-neutral-800/80 shadow-xs flex items-center justify-between">
+                <div className="flex items-center gap-4">
+                  <div className="w-10 h-10 rounded-xl bg-emerald-50 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center flex-shrink-0">
+                    <Phone className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <div className="text-xs font-semibold text-neutral-500 dark:text-neutral-400">
+                      Direct Phone
+                    </div>
+                    <a
+                      href={`tel:${personal.phone.replace(/\s+/g, '')}`}
+                      className="text-base font-bold text-neutral-900 dark:text-neutral-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                    >
+                      {personal.phone}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            )}
+
             {/* LinkedIn Card */}
             <a
               href={personal.linkedIn}
@@ -122,7 +144,7 @@ export const Contact: React.FC = () => {
                   Connect on LinkedIn
                 </div>
                 <div className="text-sm font-bold text-neutral-900 dark:text-neutral-100 truncate group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                  linkedin.com/in/alexchen-dev
+                  {personal.linkedIn.replace('https://', '')}
                 </div>
               </div>
             </a>
@@ -142,7 +164,7 @@ export const Contact: React.FC = () => {
                   Open Source Code
                 </div>
                 <div className="text-sm font-bold text-neutral-900 dark:text-neutral-100 truncate group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
-                  github.com/alexchen-dev
+                  {personal.github.replace('https://', '')}
                 </div>
               </div>
             </a>
